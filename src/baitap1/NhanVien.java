@@ -18,7 +18,7 @@ public class NhanVien
     public String  Diachi;
     public double Tienluong;
     public int Tongsogiolam;
-    NhanVien()
+    public NhanVien()
     {
         Ten="";
         Tuoi=0;
@@ -37,7 +37,7 @@ public class NhanVien
     }
     public String getThongTin() 
     {
-        return "Ten: " + Ten + ", tuoi: " + Tuoi + ", diachi: " + Diachi+ ", tien luong: "+ Tienluong + ", tong gio lam: " + Tongsogiolam;
+        return "Ten: " + Ten + ", tuoi: " + Tuoi + ", diachi: " + Diachi+ ", tien luong: "+ Tienluong + ", tong gio lam: " + Tongsogiolam + ",thuong:  "+tinhThuong ();
     }
     public double tinhThuong()
     {

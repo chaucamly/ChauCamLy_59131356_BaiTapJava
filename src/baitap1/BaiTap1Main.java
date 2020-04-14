@@ -44,10 +44,8 @@ public class BaiTap1Main
     nhap.nextLine();
     
     System.out.println(nhanvien1.getThongTin());
-    System.out.println("Tien thuong: " + nhanvien1.tinhThuong());
-  
     System.out.println(nhanvien2.getThongTin());
-    System.out.println("Tien thuong: " + nhanvien2.tinhThuong());
+   
     
  }
 }
