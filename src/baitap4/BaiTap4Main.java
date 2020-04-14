@@ -14,9 +14,9 @@ import java.util.Scanner;
 public class BaiTap4Main {
     public static void main(String[] args) {
         Scanner nhap=new Scanner(System.in);
-        QuanLyChuyenXe QuanLy = new QuanLyChuyenXe();
+        QuanLyChuyenXe QuanLy=new QuanLyChuyenXe();
 
-           XeNoiThanh Noithanh1 = new XeNoiThanh();
+           XeNoiThanh Noithanh1=new XeNoiThanh();
         System.out.println("Mã số chuyến: ");
         Noithanh1.setMaSoChuyen(nhap.nextLine());
         System.out.println("Tên tài xế: ");
@@ -32,7 +32,7 @@ public class BaiTap4Main {
         Noithanh1.setSoKmDiDuoc(nhap.nextInt());
         nhap.nextLine();
         
-           XeNoiThanh Noithanh2 = new XeNoiThanh();
+           XeNoiThanh Noithanh2=new XeNoiThanh();
         System.out.println("Mã số chuyến: ");
         Noithanh2.setMaSoChuyen(nhap.nextLine());
         System.out.println("Tên tài xế: ");
@@ -48,7 +48,7 @@ public class BaiTap4Main {
         Noithanh2.setSoKmDiDuoc(nhap.nextInt());
         nhap.nextLine();
         
-           XeNoiThanh Noithanh3 = new XeNoiThanh();
+           XeNoiThanh Noithanh3=new XeNoiThanh();
         System.out.println("Mã số chuyến: ");
         Noithanh3.setMaSoChuyen(nhap.nextLine());
         System.out.println("Tên tài xế: ");
@@ -65,7 +65,7 @@ public class BaiTap4Main {
         nhap.nextLine();
         
         
-            XeNgoaiThanh Ngoaithanh1 = new XeNgoaiThanh();
+            XeNgoaiThanh Ngoaithanh1=new XeNgoaiThanh();
         System.out.println("Mã số chuyến: ");
         Ngoaithanh1.setMaSoChuyen(nhap.nextLine());
         System.out.println("Tên tài xế: ");
@@ -81,7 +81,7 @@ public class BaiTap4Main {
         Ngoaithanh1.setSoNgayDiDuoc(nhap.nextInt());
         
         
-             XeNgoaiThanh Ngoaithanh2 = new XeNgoaiThanh();
+             XeNgoaiThanh Ngoaithanh2=new XeNgoaiThanh();
         System.out.println("Mã số chuyến: ");
         Ngoaithanh2.setMaSoChuyen(nhap.nextLine());
         System.out.println("Tên tài xế: ");
@@ -97,7 +97,7 @@ public class BaiTap4Main {
         Ngoaithanh2.setSoNgayDiDuoc(nhap.nextInt());
         
         
-             XeNgoaiThanh Ngoaithanh3 = new XeNgoaiThanh();
+             XeNgoaiThanh Ngoaithanh3=new XeNgoaiThanh();
         System.out.println("Mã số chuyến: ");
         Ngoaithanh3.setMaSoChuyen(nhap.nextLine());
         System.out.println("Tên tài xế: ");

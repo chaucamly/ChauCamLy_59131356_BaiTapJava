@@ -19,12 +19,14 @@ public class XeNgoaiThanh extends ChuyenXe
         this.SoNgayDiDuoc=0;
     }
 
-    public void setNoiDen(String NoiDen) {
-        this.NoiDen = NoiDen;
+    public void setNoiDen(String NoiDen) 
+    {
+        this.NoiDen=NoiDen;
     }
 
-    public void setSoNgayDiDuoc(int SoNgayDiDuoc) {
-        this.SoNgayDiDuoc = SoNgayDiDuoc;
+    public void setSoNgayDiDuoc(int SoNgayDiDuoc) 
+    {
+        this.SoNgayDiDuoc=SoNgayDiDuoc;
     }
 
     @Override

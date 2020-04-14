@@ -20,11 +20,13 @@ public class XeNoiThanh extends ChuyenXe
         this.SoKmDiDuoc = 0;
     }
 
-    public void setSoTuyen(String SoTuyen) {
+    public void setSoTuyen(String SoTuyen) 
+    {
         this.SoTuyen = SoTuyen;
     }
 
-    public void setSoKmDiDuoc(double SoKmDiDuoc) {
+    public void setSoKmDiDuoc(double SoKmDiDuoc) 
+    {
         this.SoKmDiDuoc = SoKmDiDuoc;
     }
  
